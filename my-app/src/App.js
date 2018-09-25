@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import Travel from "./Travel";
+import Travel from "./Travels";
 
 class App extends Component {
   render() {
@@ -17,12 +17,6 @@ class App extends Component {
           country="Japan"
           photo="https://cdn.cnn.com/cnnnext/dam/assets/170606121226-japan---travel-destination---shutterstock-230107657.jpg"  
           distance="9 706 km"
-        />
-        <Travel
-          destination="Innsbruk"
-          country="Austria"
-          photo="https://c1.staticflickr.com/5/4077/4931449327_9407692780_b.jpg"  
-          distance="757 km"
         />
       </div>
     );
